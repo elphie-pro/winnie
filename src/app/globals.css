@@ -5,6 +5,12 @@
   --foreground: #171717;
 }
 
+@theme {
+  --font-custom: var(--font-sans);
+  --font-birds: var(--font-sans);
+  --font-syne: var(--font-sans);
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
