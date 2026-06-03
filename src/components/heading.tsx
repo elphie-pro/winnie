@@ -12,14 +12,21 @@ export default function Page() {
             <div className="flex justify-center items-center h-full">
                     <h1 className="text-[6.5rem] text-[#3A0517] font-birds ">Babadele Ayomide Winnifred</h1>    
             </div>
-            <div className="mt-[-10rem]">
+            <div className="mt-[-6rem]">
                 <Marquee autoFill={false} pauseOnHover={true} speed={40} >
-                    <div className="flex gap-5">
-                        <span>John</span>
-                    <span>John</span>
-                    <span>John</span>
-                    <span>John</span>
-                    <span>John</span>
+                    <div className="flex gap-20 font-birds">
+                        <div className="bg-[#C33062] w-[13rem] h-[4.8rem] px-2 p-1 justify-center flex items-center rounded-xl md:text-lg lg:text-lg">
+                            <h2 className="text-[2.5rem]">My heart</h2>
+                        </div>
+                        <div className="bg-[#C33062] w-[14rem] h-[4.8rem] px-2 p-1 justify-center flex items-center rounded-xl md:text-lg lg:text-lg">
+                            <h2 className="text-[2.5rem]">Alfredo Mi</h2>
+                        </div>
+                        <div className="bg-[#C33062] w-[15rem] h-[4.8rem] px-2 p-1 justify-center flex items-center rounded-xl md:text-lg lg:text-lg">
+                            <h2 className="text-[2.5rem]">My Ayomide</h2>
+                        </div>
+                        <div className="bg-[#C33062] w-[16rem] h-[4.8rem] px-2 p-1 justify-center flex items-center rounded-xl md:text-lg lg:text-lg">
+                            <h2 className="text-[2.5rem]">Supreme Empress</h2>
+                        </div>
                     </div>
                     
                 </Marquee>
