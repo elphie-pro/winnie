@@ -9,6 +9,7 @@
   --font-custom: var(--font-sans);
   --font-birds: var(--font-sans);
   --font-syne: var(--font-sans);
+  --font-pete: var(--font-sans);
 }
 
 @theme inline {

@@ -23,6 +23,11 @@ const syne = localFonts({
   variable: "--font-syne",
 })
 
+const pete = localFonts({
+  src: "../../public/fonts/Petemoss-Regular.ttf",
+  variable: "--font-pete",
+})
+
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
@@ -41,7 +46,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${alfa.variable} ${birds.variable} ${syne.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${alfa.variable} ${birds.variable} ${pete.variable} ${syne.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

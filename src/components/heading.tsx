@@ -14,7 +14,7 @@ export default function Page() {
             </div>
             <div className="mt-[-6rem]">
                 <Marquee autoFill={false} pauseOnHover={true} speed={40} >
-                    <div className="flex gap-20 font-birds">
+                    <div className="flex gap-20 font-pete">
                         <div className="bg-[#C33062] w-[13rem] h-[4.8rem] px-2 p-1 justify-center flex items-center rounded-xl md:text-lg lg:text-lg">
                             <h2 className="text-[2.5rem]">My heart</h2>
                         </div>
