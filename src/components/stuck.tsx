@@ -7,8 +7,8 @@ export default function Page() {
             <div className=" w-full block  lg:max-w-[85rem] md:max-w-[50rem]  mx-auto px-4 xl:pt-[1.5rem] xl:py-6 pb-40 min-h-screen">
             <ScrollAnimation yfrom={200} to={0}>
                 <div className="flex flex-col justify-center items-center gap-10">
-                    <h2 className="font-syne xl:text-7xl text-6xl py-6">WHY YOU’RE STUCK WITH ME!😝</h2>
-                        <div className="grid grid-cols-4 xl:gap-36 gap-14 text-[#3A0517] gap-y-10">
+                    <h2 className="font-syne xl:text-7xl text-6xl py-6 xl:py-0">WHY YOU’RE STUCK WITH ME!😝</h2>
+                        <div className="grid grid-cols-4 xl:gap-36 gap-14 text-[#3A0517] xl:gap-y-10">
                         <div className="w-[12rem] h-[7rem] bg-[#EBB6D4] rounded-xl p-2 font-syne text-3xl text-center items-center flex justify-center">
                             <h2>Those Eyes</h2>
                         </div>
