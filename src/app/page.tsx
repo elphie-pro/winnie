@@ -4,6 +4,7 @@ import LOML from '@/components/loml'
 import Love from '@/components/love'
 import Stuck from '@/components/stuck'
 import Evidence from '@/components/evidence'
+import Far from '@/components/far'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Love />
         <Stuck />
         <Evidence />
+        <Far />
       </div>
     </div>
   );

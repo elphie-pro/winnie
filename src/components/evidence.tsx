@@ -24,7 +24,7 @@ export default function Page() {
             <div className="absolute inset-0 bg-[url('/Rectangle-11.svg')] bg-contain bg-center opacity-15" />
                  <div className="relative z-10 w-full lg:max-w-[85rem] md:max-w-[50rem] mx-auto px-4 xl:pt-[1.5rem] pb-12 min-h-screen">
                      <div className="flex flex-col justify-center items-center gap-10 text-[#3A0517]">
-                        <h2 className="font-syne text-7xl">WHY I'M A FINISHED MAN!😝</h2>
+                        <h2 className="font-syne text-7xl">WHY I&apos;M A FINISHED MAN!😝</h2>
                             <div className="w-full lg:max-w-[85rem] md:max-w-[50rem]" style={{ height: '600px', position: 'relative' }}>
                                 <CircularGallery
                                     items={items}
