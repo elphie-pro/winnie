@@ -14,7 +14,7 @@ export default function Page() {
                 <div className="flex flex-col justify-center items-center h-full">
                     <h2 className="xl:text-[6.5rem] text-[4.5rem] font-birds text-[#EBB6D4]">Now. The golden question!</h2>
                     <div>
-                      <button className="font-custom w-[5rem] rounded-lg h-[3rem] text-[2rem]! cursor-pointer text-[#3A0517] bg-[#EBB6D4]" onClick={() => {route.push('/')}}>Home</button>
+                      <button className="font-custom w-[8rem] rounded-lg h-[3rem] text-[2rem]! cursor-pointer text-[#3A0517] bg-[#EBB6D4]" onClick={() => {route.push('/')}}>Home</button>
                     </div>
                 </div>
             </div>
