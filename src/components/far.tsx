@@ -19,7 +19,7 @@ export default function Page() {
                 <div className="flex flex-col justify-center items-center font-syne text-7xl gap-10 h-full">
                     <h2>Okay Ayomide!</h2>
                     <h2>You&apos;ve made it this far😝</h2>
-                    <button className="w-[15rem] text-3xl h-[4rem] bg-[#EBB6D4] rounded-2xl text-black cursor-pointer" onClick={() => { route.push('/') }}>Lets finish this!</button>
+                    <button className="w-[15rem] text-3xl h-[4rem] bg-[#EBB6D4] rounded-2xl text-black cursor-pointer" onClick={() => { route.push('/question') }}>Lets finish this!</button>
                 </div>
             </div>
         </div>
