@@ -4,17 +4,17 @@ import { ScrollAnimation } from "@/app/SlideAnimation";
 export default function Page() {
     return (
         <div className="bg-[#3A0517] hidden lg:block">
-             <div className="w-full block lg:max-w-[85rem] md:max-w-[50rem]  mx-auto px-4 xl:pt-[3rem] md:py-6 pb-12 h-screen">
+             <div className="w-full block xl:max-w-[85rem] lg::max-w-[60rem]  mx-auto px-4 xl:pt-[3rem] md:py-6 pb-12 h-screen">
                 <div className="flex justify-between">
                     <ScrollAnimation from={-200} to={0}>
                         <div >
-                            <Image src="/Ellipse 1.svg" alt="" width={10} height={10} className="w-full"/>
+                            <Image src="/Ellipse 1.svg" alt="" width={10} height={10} className="xl:w-full w-[25rem] mt-[3rem] xl:mt-0"/>
                         </div>
                     </ScrollAnimation>
                     <ScrollAnimation yfrom={200} yto={0}>
                         <div className="flex flex-col gap-10 justify-center items-center mt-[3rem]">
-                            <h2 className="font-pete text-6xl">Just Who is the <span className="font-custom text-[#EBB6D4]">LOML</span></h2>
-                            <div className="flex flex-col gap-10 text-xl">
+                            <h2 className="font-pete xl:text-6xl text-5xl">Just Who is the <span className="font-custom text-[#EBB6D4]">LOML</span></h2>
+                            <div className="flex flex-col gap-10 xl:text-xl">
                                     <span> <span className=" text-[#EBB6D4]">Babadele Ayomide Winnifred</span> is a very beautiful, funny <br />
                                             and joyous person. She’s a very selfless person that always <br />
                                             put the needs of those important to her first. She has a <br />
