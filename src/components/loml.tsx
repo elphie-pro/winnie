@@ -12,7 +12,7 @@ export default function Page() {
                         </div>
                     </ScrollAnimation>
                     <ScrollAnimation yfrom={200} yto={0}>
-                        <div className="flex flex-col gap-10 justify-center items-center mt-[3rem]">
+                        <div className="flex flex-col gap-10 justify-center items-center mt-[3rem] text-white">
                             <h2 className="font-pete xl:text-6xl text-5xl">Just Who is the <span className="font-custom text-[#EBB6D4]">LOML</span></h2>
                             <div className="flex flex-col gap-10 xl:text-xl">
                                     <span> <span className=" text-[#EBB6D4]">Babadele Ayomide Winnifred</span> is a very beautiful, funny <br />
