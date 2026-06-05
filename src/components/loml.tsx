@@ -3,7 +3,7 @@ import { ScrollAnimation } from "@/app/SlideAnimation";
 
 export default function Page() {
     return (
-        <div className="bg-[#3A0517]">
+        <div className="bg-[#3A0517] hidden lg:block">
              <div className="w-full block lg:max-w-[85rem] md:max-w-[50rem]  mx-auto px-4 xl:pt-[3rem] md:py-6 pb-12 h-screen">
                 <div className="flex justify-between">
                     <ScrollAnimation from={-200} to={0}>

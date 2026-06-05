@@ -5,6 +5,7 @@ import Love from '@/components/love'
 import Stuck from '@/components/stuck'
 import Evidence from '@/components/evidence'
 import Far from '@/components/far'
+import Cover from '@/components/cover'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Stuck />
         <Evidence />
         <Far />
+        <Cover />
       </div>
     </div>
   );

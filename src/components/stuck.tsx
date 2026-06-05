@@ -3,7 +3,7 @@ import { ScrollAnimation } from "@/app/SlideAnimation";
 
 export default function Page() {
     return (
-        <div className="bg-[#C33062]">
+        <div className="bg-[#C33062] hidden lg:block">
             <div className=" w-full block  lg:max-w-[85rem] md:max-w-[50rem]  mx-auto px-4 xl:pt-[1.5rem] xl:py-6 pb-40 min-h-screen">
             <ScrollAnimation yfrom={200} to={0}>
                 <div className="flex flex-col justify-center items-center gap-10">

@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 export default function Page() {
     return (
-        <div className="w-full block lg:max-w-[85rem] md:max-w-[50rem]  mx-auto px-4 py-6 md:py-6 pb-12 h-screen">
+        <div className="w-full block lg:max-w-[85rem] md:max-w-[50rem]  mx-auto px-4 py-6 md:py-6 pb-12 h-screen hidden lg:block">
             <div>
                 <Image alt="" src="/bouquet of white roses.svg" width={10} height={10} className="w-1/6 absolute xl:mt-[12rem] xl:ml-[70rem]"/>
                 <Image alt="" src="/flowers.svg" width={10} height={10} className="w-1/6 absolute xl:mt-[15rem] xl:ml-[-5rem]"/>
