@@ -2,6 +2,7 @@
 import Heading from '@/components/heading'
 import LOML from '@/components/loml'
 import Love from '@/components/love'
+import Stuck from '@/components/stuck'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Heading />
         <LOML />
         <Love />
+        <Stuck />
       </div>
     </div>
   );
